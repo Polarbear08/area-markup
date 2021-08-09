@@ -1,3 +1,26 @@
+# area-markup
+面積を計算する
+
+# 使い方
+
+1.`dokcer-compose.yml`の接続情報を確認する。
+
+- app：アプリケーションサーバ。デフォルトでは13000番ポートで接続
+- db：データベースサーバ。デフォルトでは3306番ポートを開放
+- db_console：データベースのWebコンソール。開発用。デフォルトでは28080番ポートで接続
+
+2.ビルドする。
+
+```
+$ docker compose up -d --build
+```
+
+3.接続確認する
+
+http://localhost:13000
+
+
+# 以下、[wallabyway/area-markup](https://github.com/wallabyway/area-markup)のREADME
 # Space Planning with Forge Measure Tool
 
 DEMO: [https://wallabyway.github.io/area-markup/](https://wallabyway.github.io/area-markup/)
